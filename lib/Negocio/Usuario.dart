@@ -1,13 +1,11 @@
-
-
 class Usuario {
+  final String nome;
   final int id;
-  final DateTime data;
-  final String matricula;
+  String matricula;
 
   Usuario({
+    required this.nome,
     required this.id,
-    required this.data,
     required this.matricula,
   });
 
